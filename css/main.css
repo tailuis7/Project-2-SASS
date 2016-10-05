@@ -1,5 +1,23 @@
 /* BASE - Base styles, variables, mixins, normalize */
+/* Background Colors */
+/* Website's Width */
+/* Header Image */
+#container {
+  padding-top: 10px;
+  background-color: #2ecc71;
+}
+#container .container {
+  width: 1200px;
+}
+
 /* MODULES - Individual site components */
 /* LAYOUTS - Page layout styles*/
+/* Header */
+.header-main {
+  background-image: url("../img/background-header.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
