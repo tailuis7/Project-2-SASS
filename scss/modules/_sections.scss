@@ -63,9 +63,15 @@ section {
             border-radius: 0px 10px 10px 0px;
         }
     }
-    iframe {
+    .video-container {
         float: right;
-        width: 84.22%;
-        height: 270px;
+        width: 87.72%;
+        overflow: hidden;
+        border-radius: 15px;
+        position: relative;
+        iframe {
+            float: right;
+            width: 100%;
+        }
     }
 }
