@@ -51,6 +51,7 @@ section {
 .section-get-notifield h2 {
   font-size: 22px;
   margin-bottom: 30px;
+  margin-top: 0px;
 }
 .section-get-notifield p {
   font-size: 16px;
