@@ -1,0 +1,70 @@
+/* Sections */
+
+section {
+    padding: 60px 0px;
+}
+
+.section-features {
+    background-color: #ffffff;
+    .feature-content {
+        .icon {
+            font-size: 50px;
+            a {
+                color: #ffffff;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+            &:hover .icon-background {
+                color: rgba(0, 0, 0, 0.45);
+            }
+            .icon-background {
+                color: $primary-color;
+            }
+        }
+        a {
+            color: #333;
+        }
+        h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            color: $secondary-color;
+        }
+    }
+}
+
+.section-get-notifield {
+    background-color: #e3e3e3;
+    h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 16px;
+        color: $secondary-color;
+        margin-bottom: 30px;
+    }
+    .notify-form {
+        input {
+            border-radius: 10px 0px 0px 10px;
+        }
+        .notify-confirm {
+            padding: 13px 32px;
+            background-color: #2ecc71;
+            background-image: none;
+            color: #ffffff;
+            letter-spacing: 1px;
+            margin-left: -6px;
+            border: none;
+            border-radius: 0px 10px 10px 0px;
+        }
+    }
+    iframe {
+        float: right;
+        width: 84.22%;
+        height: 270px;
+    }
+}

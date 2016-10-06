@@ -1,5 +1,46 @@
 /* Header */
 
 .header-main {
-    max-height: 600px;
+    position: relative;
+    img {
+        /*max-height: 600px;*/
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .header-information {
+        color: #ffffff;
+        position: absolute;
+        top: 22%;
+        width: 39%;
+        left: 40%;
+        display: inline-block;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        .brand-dot {
+            color: $primary-color;
+        }
+        h1 {
+            font-size: 60px;
+            margin-bottom: 50px;
+        }
+        p {
+            font-size: 24px;
+        }
+        .icon {
+            a {
+                color: #ffffff;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+            &:hover .icon-background {
+                color: $primary-color;
+            }
+            i {}
+            .icon-background {
+                color: rgba(0, 0, 0, 0.45);
+            }
+        }
+    }
 }
