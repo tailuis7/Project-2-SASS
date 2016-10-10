@@ -6,14 +6,6 @@
 
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
     /***
-     * Fix container width
-     */
-    #container {
-        .container {
-            width: 940px;
-        }
-    }
-    /***
      * Fix float iframe
      */
     .section-get-notifield {
@@ -31,14 +23,6 @@
 ---------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /***
-     * Fix container width
-     */
-    #container {
-        .container {
-            width: 750px;
-        }
-    }
     /**
     ** Fix position Header information
     **/
@@ -72,14 +56,6 @@
 ---------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    /***
-     * Fix container width
-     */
-    #container {
-        .container {
-            width: 450px;
-        }
-    }
     /**
     ** Fix position Header information
     **/
@@ -104,10 +80,10 @@
         }
         .notify-form {
             input {
-                border-radius: 0px;
+                width: auto;
+                float: left;
             }
             .notify-confirm {
-                border-radius: 0px;
                 margin-left: 0px;
                 margin-bottom: 15px;
             }
@@ -129,14 +105,6 @@
 ---------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 100px) and (max-width: 479px) {
-    /***
-     * Fix container width
-     */
-    #container {
-        .container {
-            width: 250px;
-        }
-    }
     /**
     ** Fix position Header information
     **/
@@ -154,10 +122,10 @@
         }
         .notify-form {
             input {
-                border-radius: 0px;
+                width: auto;
+                float: left;
             }
             .notify-confirm {
-                border-radius: 0px;
                 margin-left: 0px;
                 margin-bottom: 15px;
             }
